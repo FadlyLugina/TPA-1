@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color:black;
+    padding: 10px;
+}
+.header  .nav{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif; 
+    color: darksalmon;
+}
+.logo span{
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif; 
+    color: white;
+}
+.link {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+nav a span{
+    color: darksalmon;
+}
+nav a:hover{
+    color: darksalmon    ;
+}
+
+main{
+    width: 88%;
+    margin: auto;
+}
+.main .hero {
+    height: 570px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.main .hero .kiri {
+    width: 50%;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hero .kiri h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 60px;
+    font-family: 'Fredoka', sans-serif; 
+    margin-bottom: 0px;
+}
+.main .hero .kiri span {
+    font-size: 60px;
+    font-family: 'Fredoka', sans-serif; 
+    color: darksalmon;
+}
+.main .hero .kiri p {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+.main .hero .kanan {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+.main .hero img {
+    width: 700px;
+}
+
+.kotak{
+    width: 200px;
+    height: 290px;
+    left: 2cm;
+    background-color: darksalmon;
+    position: absolute;
+}
+.lingkar{
+    width: 400px;
+    height: 200px;
+    left: -1cm;
+    bottom: 0cm;
+    border-radius: 200px 200px 0 0;
+    background-color: darksalmon;
+    position: absolute;
+}
+.lingkar2{
+    width: 300px;
+    height: 150px;
+    left: 7cm;
+    bottom: 0cm;
+    border-radius: 150px 150px 0 0;
+    background-color: darksalmon;
+    position: absolute;
+}
+.lingkar3{
+    width: 150px;
+    height: 75px;
+    left: 14cm;
+    bottom: 0cm;
+    border-radius: 75px 75px 0 0;
+    background-color: darksalmon;
+    position: absolute;
+}
+.main .about{
+    text-align: justify;
+}
+.main .about h1{
+    color: #e9967a;
+    font-family: 'Fredoka', sans-serif; 
+    font-size: 48px ;
+    padding-top: 0.5cm;
+}
+
+.main .about p{
+    font-size: 18px;
+    padding-top: 0.5cm;
+    padding-left: 40px;
+    padding-right: 570px;
+}
+
+.main .about img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 2cm;
+    top: 2cm;
+    object-fit: cover;
+}
+.kotakk{
+    width: 200px;
+    height: 590px;
+    background-color: #e9967a;
+    position: absolute;
+    right: 5.35cm;
+}
+.main h1{
+    padding-bottom: 10px;
+    padding-top: 40px;
+    color: #e9967a;
+    font-family: 'Fredoka', sans-serif; 
+    font-size: 48px ;
+}
+.main span{
+    padding-bottom: 10px;
+    padding-top: 40px;
+    color: white;
+    font-family: 'Fredoka', sans-serif; 
+    font-size: 48px ;
+}
+#skill {
+    box-sizing: border-box;
+    background-color: white;
+    background-size: cover;
+}
+.list h2 {
+    margin-bottom: 0;
+    color: white;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+.list span{
+    display: inline-flexbox;
+    padding: 10px 20px 10px 20px;   
+    font-size: 22px;
+    background-color: #e9967a;
+    border-radius: 20px;
+}
+.card {
+    float: left;
+    width: 29%;
+    margin: 20px;
+    padding: 20px;
+}
+.skill {
+    margin: 20px -5px;
+}
+.skill:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.a1 {
+    box-shadow: 10px 10px 10px darksalmon;
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.a1 h3 {
+    color: black;
+}
+.a1 p{
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.kotakkk{
+    width: 152px;
+    height:60px;
+    position: absolute;
+    background-color: #e9967a;
+    z-index: -1;
+    top: 100px;
+    left: -2px;
+}
