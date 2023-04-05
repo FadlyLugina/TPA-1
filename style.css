@@ -70,6 +70,7 @@ main{
     position: relative;
     z-index: 1;
     font-size: 60px;
+    color: white;
     font-family: 'Fredoka', sans-serif; 
     margin-bottom: 0px;
 }
@@ -95,10 +96,12 @@ main{
 
 .kotak{
     width: 200px;
-    height: 290px;
+    height: 320px;
     left: 2cm;
+    top: 1cm;
     background-color: darksalmon;
     position: absolute;
+    z-index: -1;
 }
 .lingkar{
     width: 400px;
